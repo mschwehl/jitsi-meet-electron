@@ -29,7 +29,7 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "ffmuc-meet.${ext}",
+      "artifactName": "bamf-meet.${ext}",
       "target": [
         {
           "arch": "universal",
@@ -47,8 +47,8 @@
       "entitlementsInherit": "entitlements.mac.plist",
       "asarUnpack": "**/*.node",
       "extendInfo": {
-        "NSCameraUsageDescription": "Freifunk Meet requires access to your camera in order to make video-calls.",
-        "NSMicrophoneUsageDescription": "Freifunk Meet requires access to your microphone in order to make calls (audio/video).",
+        "NSCameraUsageDescription": "BAMF Meet requires access to your camera in order to make video-calls.",
+        "NSMicrophoneUsageDescription": "BAMF Meet requires access to your microphone in order to make calls (audio/video).",
         "LSMultipleInstancesProhibited": true
       }
     },
