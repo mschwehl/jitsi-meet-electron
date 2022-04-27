@@ -84,7 +84,7 @@
       ]
     },
     "win": {
-      "artifactName": "ffmuc-meet.${ext}",
+      "artifactName": "bamf-meet.${ext}",
       "target": [
         {
           "arch": [
