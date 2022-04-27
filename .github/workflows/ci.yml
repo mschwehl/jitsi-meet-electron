@@ -63,8 +63,8 @@ jobs:
       with:
         name: mac-binaries
         path: |
-          dist/ffmuc-meet.dmg
-          dist/ffmuc-meet.zip
+          dist/bamf-meet.dmg
+          dist/bamf-meet.zip
           dist/latest-mac.yml
   build-windows:
     name: Windows
@@ -84,5 +84,5 @@ jobs:
       with:
         name: windows-binaries
         path: |
-          dist/ffmuc-meet.exe
+          dist/bamf-meet.exe
           dist/latest.yml
