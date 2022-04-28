@@ -29,8 +29,8 @@ jobs:
       with:
         name: linux-binaries
         path: |
-          dist/ffmuc-meet-amd64.deb
-          dist/ffmuc-meet-x86_64.AppImage
+          dist/bamf-meet-amd64.deb
+          dist/bamf-meet-x86_64.AppImage
           dist/latest-linux.yml
   build-mac:
     name: macOS
