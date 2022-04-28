@@ -1,9 +1,9 @@
 {
   "name": "bamf-meet",
   "version": "2022.3.1",
-  "description": "Electron application for Freifunk Meet",
+  "description": "Electron application for BAMF Meet",
   "main": "./build/main.js",
-  "productName": "FreifunkMeet",
+  "productName": "BamfMeet",
   "private": true,
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
@@ -19,7 +19,7 @@
   },
   "build": {
     "appId": "meet.ffmuc.net",
-    "productName": "FreifunkMeet",
+    "productName": "BamfMeet",
     "generateUpdatesFilesForAllChannels": true,
     "afterSign": "./notarize.js",
     "files": [
@@ -113,7 +113,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/FreifunkMUC/jitsi-meet-electron"
+    "url": "git://github.com/mschwehl/jitsi-meet-electron"
   },
   "keywords": [
     "jingle",
